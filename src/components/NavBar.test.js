@@ -10,6 +10,6 @@ configure({adapter: new Adapter()})
 describe('NavBar', ()=>{
     it('Should render at least two NavBar elements', ()=>{
         const wrapper = shallow(<NavBar />)
-        expect(wrapper.find(MDBNavItem)).toHaveLength(3);
+        expect(wrapper.find(MDBNavItem)).toHaveLength(7);
     })
 })
