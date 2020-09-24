@@ -7,7 +7,7 @@ configure({adapter: new Adapter()})
 describe('App', ()=>{
   it('renders without crashing', ()=>{
     const wrapper = shallow(<App />)
-    expect(wrapper.contains(<div className='Ap'></div>))
+    expect(wrapper.contains(<section className='App'></section>))
   })
 })
 
